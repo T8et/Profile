@@ -19,34 +19,47 @@
     <style>
         *{
             scroll-behavior: smooth;
+         }
+        .bgcolor{
+          background-color: #0b0724;
+        }
+        .colort{
+          color: #aba3d9;
+        }
+        .btncolor{
+          background-color: #aba3d9;
+        }
+        .mlink:hover, .dbtn:hover, .fbtn:hover{
+          display: inline-block;
+          background-color: #37289c;
         }
     </style>
 
 </head>
-<body class="">
+<body class="bgcolor colort">
     <!-- nav bar start  -->
-    <nav class="navbar navbar-expand-lg bg-body-tertiary shadow-sm text-danger sticky-top">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary shadow-sm bgcolor sticky-top">
         <div class="container-lg">
-          <a class="navbar-brand text-danger" href="#home">KEMPO</a>
+          <a class="navbar-brand text-dark" href="#home">KEMPO</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav p-2">
               <li class="nav-item">
-                <a class="nav-link active text-danger" aria-current="page" href="#home">Home</a>
+                <a class="nav-link text-dark" aria-current="page" href="#home">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-danger" href="#skill">Skill</a>
+                <a class="nav-link text-dark" href="#skill">Skill</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-danger" href="#service">Service</a>
+                <a class="nav-link text-dark" href="#service">Service</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-danger" href="#project" aria-disabled="true">Latest Projects</a>
+                <a class="nav-link text-dark" href="#project" aria-disabled="true">Latest Projects</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-danger" href="#contact" aria-disabled="true">Contact</a>
+                <a class="nav-link text-dark" href="#contact" aria-disabled="true">Contact</a>
               </li>
             </ul>
           </div>
@@ -55,7 +68,7 @@
     <!-- nav bar end  -->
 
     <!-- home section start  -->
-    <div id="home" class="px-5">
+    <div id="home" class="px-5 colort">
         <div class="container-lg">
             <div class="row min-vh-100 align-items-center justify-content-center">
                 <div class="col-md-6 mt-3">
@@ -65,15 +78,15 @@
                 </div>
                 <div class="col-md-6 order-md-first mt-md-0">
                     <div class="my-profile">
-                        <p class="muted mb-1">Hello I'm</p>
-                        <h1 class="text-danger text-uppercase fs-1 fw-bold">Full Stack Developer (Laravel)</h1>
-                        <h2 class="fs-4">Thet Pan</h2>
-                        <p class="text-muted mt-4">
+                        <p class="muted mb-1 colort">Hello I'm</p>
+                        <h1 class="text-uppercase fs-1 fw-bold colort">Application Engineer</h1>
+                        <h2 class="fs-4 colort">Thet Pan</h2>
+                        <p class="mt-4 colort">
                             I am a dedicated and detailed-oriented web developer with a strong foundation in 
                             front-end and back-end technologies. Currently completing my degree in Computer science at 
                             UCSMGY.
                         </p>
-                        <a href="https://t8et.github.io/Nature" class="btn btn-danger px-3" target="_blank">My CSS Website</a>
+                        <a href="https://explorethenature.netlify.app/" class="mlink btn px-3 btncolor" target="_blank">CSS Website</a>
                     </div>
                 </div>
             </div>
@@ -87,7 +100,7 @@
             <div class="container-lg justify-content-center">
                 <div class="row mb-5">
                   <div class="col-12 text-center">
-                    <h1 class="fw-bold fs-3 text-danger">About Me</h1>
+                    <h1 class="fw-bold fs-3 colort">About Me</h1>
                   </div>
                 </div>
     
@@ -105,74 +118,60 @@
                         <div class="col-sm-4">
                           <div class="card1">
                             <h4 class="fs-1 fw-bold">2+</h4>
-                            <p class="text-muted">Laravel Project</p>
+                            <p class="colort">Laravel Project</p>
                           </div>
                         </div>
                         <div class="col-sm-4">
                           <div class="card1">
                             <h4 class="fs-1 fw-bold">3+</h4>
-                            <p class="text-muted">PHP Project</p>
+                            <p class="colort">PHP Project</p>
                           </div>
                         </div>
                         <div class="col-sm-4">
                           <div class="card1">
                             <h4 class="fs-1 fw-bold">1</h4>
-                            <p class="text-muted">Rewards</p>
+                            <p class="colort">Rewards</p>
                           </div>
                         </div>
                       </div>
-                      <div class="row text-center align-items-center">
+                      <div class="row text-center align-items-center justify-content-center">
                         <div class="col">
-                          <a href="./asset/ThetPan(Web Developer).pdf" class="btn btn-danger">MyCVForm <i class="fa-solid fa-download text-light""></i></a>
-                          <a href="#" class="text-dark px-2"><i class="fa-brands fa-facebook"></i></a>
-                          <a href="#" class="text-dark px-2"><i class="fa-brands fa-instagram"></i></a>
-                          <a href="#" class="text-dark px-2"><i class="fa-brands fa-twitter"></i></a>
-                          <a href="#" class="text-dark px-2"><i class="fa-brands fa-viber"></i></a>
+                          <a href="./asset/ThetPan(Web Developer).pdf" class="dbtn btn btncolor">MyCVForm <i class="fa-solid fa-download"></i></a>
+                          <a href="" class=" px-2"><i class="fa-brands fa-facebook"></i></a>
+                          <a href="#" class=" px-2"><i class="fa-brands fa-instagram"></i></a>
                         </div>
                       </div>
                     </div>
                   </div>
                   <div class="col-md-6 mb-3">
                     <div class="item mb-3">
-                      <h4>HTML</h4>
+                      <h4>HTML + CSS</h4>
                       <div class="progress" role="progressbar" aria-label="Danger example" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
-                        <div class="progress-bar bg-danger" style="width: 75%;" ></div>
+                        <div class="progress-bar colort" style="width: 75%;" ></div>
                       </div>
                     </div>
                     <div class="item mb-3">
-                      <h4>CSS </h4>
+                      <h4>Javascript, Bootstrap</h4>
                       <div class="progress" role="progressbar" aria-label="Danger example" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
-                        <div class="progress-bar bg-danger" style="width: 60%"></div>
+                        <div class="progress-bar colort" style="width: 50%"></div>
                       </div>
                     </div>
                     <div class="item mb-3">
-                      <h4>Javascript </h4>
-                      <div class="progress" role="progressbar" aria-label="Danger example" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
-                        <div class="progress-bar bg-danger" style="width: 50%"></div>
-                      </div>
-                    </div>
-                    <div class="item mb-3">
-                      <h4>Bootstrap </h4>
-                      <div class="progress" role="progressbar" aria-label="Danger example" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
-                        <div class="progress-bar bg-danger" style="width: 80%"></div>
-                      </div>
-                    </div>
-                    <div class="item mb-3">
-                        <h4>jQuery </h4>
+                        <h4>C#, .Net </h4>
                         <div class="progress" role="progressbar" aria-label="Danger example" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
-                          <div class="progress-bar bg-danger" style="width: 60%"></div>
+                          <div class="progress-bar colort" style="width: 60%"></div>
                         </div>
                     </div>
                     <div class="item mb-3">
-                        <h4>PHP </h4>
+                        <h4>PHP, Laravel </h4>
                         <div class="progress" role="progressbar" aria-label="Danger example" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
-                          <div class="progress-bar bg-danger" style="width: 60%"></div>
+                          <div class="progress-bar colort" style="width: 60%"></div>
                         </div>
                     </div>
                     <div class="item mb-3">
-                        <h4>Laravel </h4>
+                        <h4>MSSQL </h4>
                         <div class="progress" role="progressbar" aria-label="Danger example" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
-                          <div class="progress-bar bg-danger" style="width: 70%"></div>
+                          <div class="progress-bar colort" style="width: 70%"></div>
                         </div>
                     </div>
                   </div>
@@ -183,11 +182,11 @@
     <!-- skill section end  -->
 
     <!-- service section start  -->
-    <div class="service mt-5" id="service">
+    <div class="service mt-3" id="service">
         <div class="container-lg justify-content-center mt-3">
           <div class="row mb-3 ">
             <div class="col-12 text-center">
-              <h1 class="fw-bold fs-3 text-danger">What I do?</h1>
+              <h1 class="fw-bold fs-3 colort">What I do?</h1>
             </div>
           </div>
           <!-- service  -->
@@ -196,7 +195,7 @@
               <div class="card" style="height: 250px">
                 <div class="card-body bg-white rounded p-3 align-items-center">
                     <div class="icon">
-                      <i class="fa-solid fa-code text-danger fs-2 my-3"></i>
+                      <i class="fa-solid fa-code colort fs-2 my-3"></i>
                     </div>
                     <h3>Web Development</h3>
                     <p class="text-justify" style="font-size: 12px;">
@@ -212,7 +211,7 @@
               <div class="card" style="height: 250px">
                 <div class="card-body bg-white rounded p-3 align-items-center">
                     <div class="icon">
-                      <i class="fa-regular fa-lightbulb text-danger fs-2 my-3"></i>
+                      <i class="fa-regular fa-lightbulb colort fs-2 my-3"></i>
                     </div>
                     <h3>Creative</h3>
                     <p class="text-justify" style="font-size: 12px;">
@@ -250,7 +249,7 @@
 
       <div class="row mb-3">
         <div class="col-12 text-center">
-          <h1 class="fw-bold fs-3 text-danger">Latest Projects</h1>
+          <h1 class="fw-bold fs-3 colort">Latest Projects</h1>
         </div>
       </div>
 
@@ -456,7 +455,7 @@
 
       <div class="row text-center my-4">
         <div class="heading">
-          <h2 class="fs-2 fw-bold text-danger">Contact Me</h2>
+          <h2 class="fs-2 fw-bold colort">Contact Me</h2>
         </div>
       </div>
 
@@ -466,30 +465,30 @@
         <div class="col d-flex justify-content-center">
             <div class="container">
               <div class="contact-item d-flex mb-3">
-                <div class="icon text-danger fs-3 text-center">
+                <div class="icon colort fs-3 text-center">
                   <i class="fa-solid fa-phone"></i>
                 </div>
-                <div class="text ms-3 text-muted">
+                <div class="text ms-3">
                   <div>Phone</div>
-                  <div>09-424-688-128 | 09-799-079-126</div>
+                  <div>09-424-688-128 | 09-799-079-216</div>
                 </div>
               </div>
               <div class="contact-item d-flex mb-3">
-                <div class="icon text-danger fs-3 text-center">
+                <div class="icon colort fs-3 text-center">
                   <i class="fa-solid fa-envelope"></i>
                 </div>
-                <div class="text ms-3 text-muted">
+                <div class="text ms-3">
                   <div>Email</div>
                   <div>devt8et2022@gmail.com</div>
                 </div>
               </div>
               <div class="contact-item d-flex mb-3">
-                <div class="icon text-danger fs-3 text-center">
+                <div class="icon colort fs-3 text-center">
                   <i class="fa-solid fa-address-card"></i>
                 </div>
-                <div class="text ms-3 text-muted">
+                <div class="text ms-3">
                   <div>Address</div>
-                  <div>Insein Township, Yangon</div>
+                  <div>Mayangone Township, Yangon</div>
                 </div>
               </div>
             </div>
@@ -520,7 +519,7 @@
               </div>
               <div class="row">
                 <div class="col-lg-12 mb-3 p-1">
-                  <button class="btn btn-danger">Send <i class="fa-solid fa-paper-plane"></i></button>
+                  <button class="fbtn btn btncolor">Send <i class="fa-solid fa-paper-plane"></i></button>
                 </div>
               </div>
             </form>
@@ -538,7 +537,7 @@
     <div class="container-lg">
       <div class="row">
         <div class="col-lg-12">
-          <p class="m-0 text-center text-danger">This webpage is for display purpose only</p>
+          <p class="m-0 text-center colort">This webpage is for display purpose only</p>
         </div>
       </div>
     </div>
